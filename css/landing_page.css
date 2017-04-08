@@ -1,0 +1,73 @@
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: black;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #F29E20;
+    border-color: black;
+}
+
+.modal-transparent{
+    background-color: rgba(0,0,0,0.25);
+    
+}
+
+.modal-transparent .modal-content{
+   background-color: rgba(0,0,0,0.25);
+    
+}
+
+.white{
+    color: white
+}
+
+input[type='text'],input[type='password'],input[type='submit']{
+    background-color: rgba(0,0,0,0.25)
+}
+
+
+.center{
+    text-align: center;
+}
+
+
+.logo_top_buffer{
+    margin-top: 150px;
+}
+
+.top_buffer{
+    margin-top: 10px;
+}
+
+.color{
+    color: gray;
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+
+
+
+.center{
+    text-align: center;
+}
+
+.border-button{
+    border: solid 1px;
+}
+
+body{position:fixed;width:100%;height:100%;background-image: url("bg1.jpg");background-size:cover;font-family: tahoma;}

@@ -1,0 +1,352 @@
+/* Carousel Styles */
+.carousel-indicators .active {
+    background-color: #F29E20;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px
+}
+
+.header-text img {
+    width: 400px;
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.carousel-control.left span {
+	padding: 15px;
+}
+
+.carousel-control.right span {
+	padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+	right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+	background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+	padding: 10px;
+}
+
+.header-text h3 span {
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-theme {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-right: 15px;
+}
+
+.btn-theme:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+
+.title {
+    height: 65px
+}
+.table-fixed thead {
+  width: 97%;
+}
+.table-fixed tbody {
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  border-bottom-width: 0;
+}
+
+.starRating:not(old){
+  display        : inline-block;
+  width          : 15em;
+  height         : 3em;
+  overflow       : hidden;
+  vertical-align : bottom;
+}
+
+.starRating:not(old) > input{
+  margin-right : -100%;
+  opacity      : 0;
+}
+
+.starRating:not(old) > label{
+  display         : block;
+  float           : right;
+  position        : relative;
+  background      : url('star-off.svg');
+  background-size : contain;
+}
+
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 3em;
+  height          : 3em;
+  background      : url('star-on.svg');
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before{
+  opacity : 1;
+}
+
+
+
+
+.div-hover:hover {background-color: #f4f4f4;}
+
+
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.footer-color{
+    background-color: #FFB74C;
+    height: 200px;
+}
+.color-orange {
+    background-color: #F29E20;
+    height: 50px;
+}
+
+.color-white{
+    background-color: white;
+    
+}
+body {
+	background-color: #f4f4f4;
+	font-family: tahoma;
+	color: #6b6a6a;
+}
+
+.nav li a{
+    color: inherit;
+} 
+
+
+
+.black-text{
+    color: black;
+}
+
+.table.borderless tr td {border-width: 0;}
+
+
+
+.navbar-default {
+    background-color: #F29E20;
+    background-image: none;
+    background-repeat: no-repeat;
+    border: 0px
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  background-color: #a52a2a;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: #a52a2a;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background: #a52a2a;
+  color: white
+}
+
+
+
+
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: #a52a2a;
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+.right_border{
+    border-right: 1px solid;
+}
+.bottom_border{
+    border-bottom:  .2px solid;
+    border-color: #b5b5b5;
+}
+
+.row-top-buffer{margin-top:10px}
+
+.top-buffer { margin-top:20px; }
+
+.left-buffer {margin-left: 20px;}
+
+.center{
+    text-align: center;
+}
+
+.padding{
+    padding: 15px;
+}
+
+
+ 
+
+
+
+
+/* { margin: 0px; padding: 0px; }
+body {
+	background-color: #f4f4f4;
+	font-family: tahoma;
+	color: #6b6a6a;
+}
+
+#main {width: 100%; margin:0px auto;box-sizing:border_box;}
+#header{width: 100%; margin: 0px auto; background-color: #F29E20;}
+#inHeader{width: 1100px; margin:0px auto; }
+#content {width: 1100px; margin: 0px auto}
+#footer{width: 100%; margin: 0px auto; background-color: #F29E20;}
+#inFooter{width: 1100px; margin:0px auto;}
+
+#menu{
+	width: 1100px; margin:0px auto;
+	margin-bottom: 50px
+}
+#menu_style {
+	list-style: none;
+	margin: 0px; margin-top: 2px;
+}
+#menu_style li{
+    font-size:11px; list-style: none; float: left;
+    text-align:center; box-sizing:border-box; 
+    padding: 10px; margin-right: 2px; width:364.67px
+}
+#menu_style li:hover { background-color: #F29E20;}
+#menu_style li a { text-decoration: none; color: #6b6a6a  }
+
+.full_box{
+	width: 1100px; margin:0px auto; 
+}
+.half_box{
+	width: 550px; margin:0px auto;
+}
+.form_box {
+	background-color: white;
+	width: 1100px; margin: 0px auto;
+	padding: 20px;
+}
+.form_boxHalf {
+	background-color: white;
+	width: 550px; margin: 0px auto;
+	padding: 20px;
+}
+
+
+
+
+.marginTop150 {margin-top: 150px}
+.label {font-size: 20px; margin-bottom: 20px}
+.form_label {font-size: 15px; margin-bottom: 20px}	
+.input_label{font-size: 15px; margin-bottom: 20px}
+
+input[type=submit] {cursor: pointer; width: 200px; padding: 5px; border-radius:5px;border:10px solid white;}
+input[type=submit]:hover {background-color: #F29E20}
+
+
+p {color: #6b6a6a}
+table tr td {padding: 15px; }
+.right_align{text-align: right;}
+.er_message{color: red; }
+.success_message{color: green; }
+.message{color: #6b6a6a; } */
