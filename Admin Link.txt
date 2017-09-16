@@ -6,3 +6,5 @@ http://bookcity.com/admin/admin_login?token=5fl208l0k5vput3h8aj6s5x4wjf7l1sr
 Always save this link to go to the admin page.
 
 If you generate a new link, immediatly replace the link with the new link.
+
+Thank You
